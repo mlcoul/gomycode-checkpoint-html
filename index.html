@@ -1,45 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div>
+    <header id="header">
+        
+        
             <nav>
-                <P>Portfolio</P>
-                <a href="">About</a>
-                <a href="">Project</a>
-                <a href="">Contact</a>
+
+                <div><P>Portfolio</P></div>
+                
+                <div id="xxx">
+                    <a href="#" class="nav">About</a>
+                    <a href="#" class="nav">Project</a>
+                    <a href="#" class="nav">Contact</a>
+                </div>
+                
             </nav>
-        </div>
-        <div>
-            <h1>Bienvenue sur le site de Martial Yao</h1>
-            <h2>developpeur de logiciel</h2>
-        </div>
         
         <div>
-            <img src="res/img/html5.jpeg" alt="html5">
-            <img src="res/img/css3.jpeg" alt="CSS3">
-            <img src="res/img/JS.jpeg" alt="JS">
-            <img src="res/img/node.jpeg" alt="node">
+            <h1>Bienvenue sur le site de Martial Yao</h1>
+            <h2>Developpeur de logiciel</h2>
+        </div>
+        
+        <div class="code-img">
+            <img src="res/img/html5.jpeg" alt="html5" class="img1">
+            <img src="res/img/css3.jpeg" alt="CSS3" class="img1">
+            <img src="res/img/JS.jpeg" alt="JS" class="img1">
+            <img src="res/img/node.jpeg" alt="node" class="img1">
         </div>
 
     </header>
-    <main>
+    <main id="main">
         <div>
             <h1>Mes projets Réalisés</h1>
         </div>
-        <div>
-            <img src="res/img/digital.jpeg" alt="">
-            <img src="res/img/digital2.jpeg" alt="">
-            <img src="res/img/digital3.jpeg" alt="">
-            <img src="res/img/metaverse.jpeg" alt="">
-            <img src="res/img/ships.jpeg" alt="">
-            <img src="res/img/conecting.jpeg" alt="">
+        <div id="img-div">
+            <img src="res/img/digital.jpeg" alt="" class="img2">
+            <img src="res/img/digital2.jpeg" alt="" class="img2">
+            <img src="res/img/digital3.jpeg" alt="" class="img2">
+            <img src="res/img/metaverse.jpeg" alt="" class="img2">
+            <img src="res/img/ships.jpeg" alt="" class="img2">
+            <img src="res/img/conecting.jpeg" alt="" class="img2">
         </div>
 
         <div>
@@ -76,50 +83,53 @@
 
 
     </main>
-    <footer>
+    <footer id="footer">
         <div>
-            <h1>Contacter moi sur mes reseaux</h1>
+            <h1>Contacter Moi sur mes reseaux</h1>
         </div>
-        <div>
-            <img src="res/img/facebook.jpeg" alt="">
-            <img src="res/img/linkedin.jpeg" alt="">
-            <img src="res/img/twitter.jpeg" alt="">
+        <div id="img3">
+            <img src="res/img/facebook.jpeg"  alt="">
+            <img src="res/img/linkedin.jpeg"  alt="">
+            <img src="res/img/twitter.jpeg"  alt="">
             <img src="res/img/insta.jpeg" alt="">
         </div>
         <div>
             <p>Envoyez moi un mail <a href="#">ici</a></p>
          </div>
+         
         <div>
             <form action="xxx.php" method="post" >
                 <div class="form-example">
                   <label for="email">Votre Email* </label>
-                  <input type="email" name="email" id="email" required>
+                  <input type="email" name="email" id="email" required class="form">
                 </div>
                 <div>
                   <label for="prenom">Votre Prenom*</label>
-                  <input type="text" name="prenom" id="prenom" required>
+                  <input type="text" name="prenom" id="prenom" required class="form">
                 </div>
                 <div>
                     <label for="message">Votre Message* </label>
-                    <input type="text" name="message" id="message" required>
+                    <input type="text" name="message" id="message" required class="form">
                 </div>
-                
-              </form>
-
-              <div>
-                <video controls width="250">
-
-                    <source src="/media/cc0-videos/flower.webm"
-                            type="video/webm">
-                
-                    <source src="res/videos/vid.mp4">
-                
-                    
-                </video>
-                
-              </div>
               
+            
+            </form>
+                            
         </div>
+
+        <div>
+            <video controls width="250">
+
+                <source src="/media/cc0-videos/flower.webm"
+                        type="video/webm">
+            
+                <source src="res/videos/vid.mp4">
+            
+                
+            </video>
+            
+          </div>
+
         <div>
             <button>envoyer</button>
         

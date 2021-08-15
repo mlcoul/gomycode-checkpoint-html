@@ -1,0 +1,134 @@
+/* header */
+
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+.nav
+{
+    margin-left: 30px;
+    text-decoration: none;
+    color: green;
+}
+
+
+nav div p
+{
+
+    margin-block-start: 0em;
+    color: green;
+}
+
+#header
+{
+background-color: blue;
+text-align: center;
+
+}
+
+#header div h1
+{
+    color: red;
+    font-size: 2em;
+}
+#header div h2
+{
+    color: white;
+    font-size: 0.75em;
+    margin-bottom: 50px;
+    opacity: 0.80;
+}
+
+
+/* main */
+
+.img1
+{
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 80px;
+}
+
+#main
+{
+    background-color: grey;
+}
+
+.img2
+
+{
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+
+}
+
+#main div h1
+{
+    color: red;
+    text-align: center;
+    font-size: initial;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+#img-div
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* footer */
+ #footer
+ {
+    background-color: yellow;
+  position: relative;
+ }
+
+ #img3
+
+{
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    display: flex;
+   position: absolute;
+   top: 25%;
+   right: 50%;
+   left: 50%S;
+
+}
+
+#div1
+{
+    position: relative;
+}
+#footer div h1
+{
+    text-align: center;
+    margin-top: 0em;
+    color: red;
+    font-size: initial;
+    /* position: absolute;
+    top: 10px;
+    left: 50%; */
+}
+#footer div p
+{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.form
+{
+    display: block;
+}
